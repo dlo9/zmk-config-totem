@@ -9,4 +9,9 @@ devenv.local.yaml
 # pre-commit
 .pre-commit-config.yaml
 
+# ZMK/west stuff
+.west/
 .zmk/
+zmk/
+modules/
+zephyr/
