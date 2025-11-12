@@ -1,0 +1,8 @@
+[project]
+name = "zmk-config-totem"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "zmk>=0.3.2",
+]
+description = "ZMK config for Totem keyboard"
