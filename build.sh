@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 1. Initialize west with your config directory
-west init -l config
+[ -d .west ] || west init -l config
 
 # 2. Update west to fetch ZMK and dependencies
 west update --fetch-opt=--filter=tree:0

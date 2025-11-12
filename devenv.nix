@@ -10,4 +10,8 @@
     uv.enable = true;
     uv.sync.enable = true;
   };
+
+  packages = with pkgs; [
+    cmake
+  ];
 }
